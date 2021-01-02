@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.baseURL="https://localhost:4000/api/";
+axios.defaults.baseURL="https://bhattinode.herokuapp.com/api/";
 axios.defaults.headers.common["x-auth-token"]=localStorage.getItem("token");
 class Generic{
     constructor(){}
